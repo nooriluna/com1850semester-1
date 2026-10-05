@@ -21,4 +21,4 @@ print(shopping)
 
 # Add yoghurt, just after milk
 shopping.insert(1, "yogurt")
-print(shoping.insert)
+print(shopping)
