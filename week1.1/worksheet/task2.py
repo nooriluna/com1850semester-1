@@ -26,4 +26,4 @@ print(f"welcome back! By saving £{monthly_savings} every month, you will have s
 interest_rate = 0.008
 total_with_interest = total + (total * interest_rate)
 print(f"By saving £{monthly_savings} every month, you will have saved £{total} in a year.")
-print (f"After adding 0.08% interest, your total will be £{total_with_interest: .2f} per year.")
+print (f"After adding 0.08% interest, your total will be £{total_with_interest: .2f}")
