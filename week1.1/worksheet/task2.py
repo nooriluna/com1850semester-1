@@ -10,8 +10,10 @@ print(f"Welcome to LeedsBank's savings calculator {name}!")
 # Ask the user to input an amount they want to save every month - this should be an integer.
 # Validate that they have entered an integer.
 monthly_input = input("could you please enter the amount you plan to save every month?(whole number only):")
-monthly_savings = int(monthly_input)
-
+if monthly_input.isdigit():
+    monthly_savings = int(monthly_input)
+else:
+ print("Invalid amount")
 
 # Calculate the total amount of money they will have saved by the end of the year (amount per month multiplied by 12).
 # print this out for the user with a suitable message.
@@ -23,4 +25,5 @@ print(f"welcome back! By saving £{monthly_savings} every month, you will have s
 
 interest_rate = 0.008
 total_with_interest = total + (total * interest_rate)
+print(f"By saving £{monthly_savings} every month, you will have saved £{total} in a year.")
 print (f"After adding 0.08% interest, your total will be £{total_with_interest: .2f} per year.")
