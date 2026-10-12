@@ -8,5 +8,12 @@ while i < 5:
 
 # Modify the loop to print numbers up to and including 20
 
+i = 0
+while i <= 20:
+	print = (i)
+
 # Add further logic so that a message is printed if the number is a multiple of 4
+if i % 4 == 0:
+	print( " This number is multipe of 4. ")
+	i = i+1
 # Hint: we discused operators such as % and // in recent weeks

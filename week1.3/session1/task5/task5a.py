@@ -8,3 +8,8 @@ for ch in course:
 
 # create a list data structure of the characters from the course string
 # sort the list into alphabetical order
+
+
+letters= list(course)
+letters.sort()
+print(letters)
