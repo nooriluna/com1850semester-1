@@ -14,8 +14,8 @@ if len(numbers) % 2 == 1:
     median = numbers[middle]
 else:
     median = (numbers[middle - 1] + numbers[middle]) / 2
-print("Minimum = ", minimum)
-print("Maximum = ", maximum)
-print("Mean = ", mean)
-print("Median = ", median)
+print("Minimum =",minimum)
+print("Maximum =",maximum)
+print("Mean =",mean)
+print("Median =",median)
 
