@@ -2,7 +2,7 @@
 
 import sys
 
-grade = input("Enter your grade please: ")
+grade = input()
 if not grade.isdecimal():
     sys.exit("Error: Grade must be an integer between 0 and 100")
 grade = int(grade)
@@ -13,5 +13,5 @@ if grade < 40:
 elif grade < 70:
     result = "Pass"
 else: 
-    result = "Distinctiom"
+    result = "Distinction"
 print(grade, "is a", result)    
